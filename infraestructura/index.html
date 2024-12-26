@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+
+    <title>Responsabilidad = dinero</title>
+  </head>
+  <body>
+    <!-- section Header -->
+    <header class="header">
+      <nav class="nav">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon"
+        >
+          <path
+            class="icon"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"
+          />
+        </svg>
+
+        <h2 class="team">Equipo de Infraestructura</h2>
+      </nav>
+      <div class="t">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon-t"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0 0 12 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 0 1-2.031.352 5.988 5.988 0 0 1-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971Zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0 2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 0 1-2.031.352 5.989 5.989 0 0 1-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971Z"
+          />
+        </svg>
+        <h1 class="titulo">Responsabilidad = Dinero</h1>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon-t"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+          />
+        </svg>
+      </div>
+
+      <p class="realidad">
+        Se nos contrató para un rol, si quieren servicios adicionales favor
+        ordenar las tareas.
+      </p>
+    </header>
+
+    <main class="container">
+      <!-- Section empleados con las fotos y esas tarjetas -->
+
+      <section class="empleados">
+        <figure class="empleados-box c">
+          <img class="empleados-img" src="img/cris.png" alt="El Analista xD" />
+          <p class="nombre">Christopher Grullon</p>
+          <p class="descri">El analista</p>
+          <p class="total"><span class="valor">0</span>$</p>
+        </figure>
+        <figure class="empleados-box m active">
+          <img
+            class="empleados-img"
+            src="img/miguel.png"
+            alt="el animal the best"
+          />
+          <p class="nombre">Miguel A. Jimenez</p>
+          <p class="descri">El mejor en seguridad</p>
+          <p class="total"><span class="valor">0</span>$</p>
+        </figure>
+        <figure class="empleados-box r">
+          <img
+            class="empleados-img"
+            src="img/raymer.png"
+            alt="el mejor manito"
+          />
+          <p class="nombre">Raymer Ferreira</p>
+          <p class="descri">El mejor en Redes</p>
+          <p class="total"><span class="valor">0</span>$</p>
+        </figure>
+      </section>
+
+      <!-- Section asignar y reset  -->
+
+      <section class="asignar">
+        <p class="aumento">Aumento: 50$</p>
+        <div>
+          <button class="btn asig">Asignar</button>
+          <button class="btn reset">Reset</button>
+        </div>
+      </section>
+
+      <!-- Section tareas con todos los roles -->
+
+      <section class="tareas">
+        <figure class="tarea-box">
+          <p class="tarea-text">Administracion de Newbound (Asterisk)</p>
+          <p class="tarea-valor">8,000$</p>
+          <button class="btn an">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </button>
+        </figure>
+        <figure class="tarea-box">
+          <p class="tarea-text">Administracion de WatchGuard</p>
+          <p class="tarea-valor">6,000$</p>
+          <button class="btn aw">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </button>
+        </figure>
+        <figure class="tarea-box">
+          <p class="tarea-text fix">Administracion de Switches</p>
+          <p class="tarea-valor">7,000$</p>
+          <button class="btn as r">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </button>
+        </figure>
+        <figure class="tarea-box">
+          <p class="tarea-text fix">Administración de Azure</p>
+          <p class="tarea-valor">10,000$</p>
+          <button class="btn aa r">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </button>
+        </figure>
+        <figure class="tarea-box">
+          <p class="tarea-text fix">Asistencia con servidores</p>
+
+          <p class="tarea-valor">5,000$</p>
+          <button class="btn asr r">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </button>
+        </figure>
+        <figure class="tarea-box">
+          <p class="tarea-text">Responsabilidades administrativas</p>
+          <p class="tarea-valor">10,000$</p>
+          <button class="btn ra r">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+          </button>
+        </figure>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

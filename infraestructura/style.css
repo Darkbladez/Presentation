@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #444;
+  background-color: #f4fce3;
+  font-family: "Roboto", sans-serif;
+  background-image: url("img/fondo.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+/* Head Section */
+.nav {
+  display: flex;
+  gap: 10rem;
+  padding: 3.2rem 3.2rem;
+  background-color: rgba(255, 146, 43, 0.733);
+  margin-bottom: 4.8rem;
+}
+.icon {
+  width: 2.4rem;
+  stroke: #333;
+  margin-right: 3.2rem;
+}
+.team {
+  display: block;
+  font-size: 3.2rem;
+  margin-right: 3.2rem;
+}
+.header {
+  padding-bottom: 9.6rem;
+  margin-bottom: 4.8rem;
+  text-align: center;
+}
+.t {
+  height: 4.8rem;
+  display: flex;
+  gap: 4.8rem;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 6.4rem;
+}
+.titulo {
+  color: #ff922b;
+  font-size: 4.8rem;
+  margin-bottom: 3.6rem;
+}
+.icon-t {
+  width: 3.2rem;
+  justify-self: center;
+}
+.realidad {
+  text-align: left;
+  font-size: 3.2rem;
+  font-weight: 500;
+  width: 100rem;
+  margin: 0 auto;
+  margin-top: 3.2rem;
+}
+
+/* Contenedor Main */
+
+.container {
+  padding: 0 3.2rem;
+  padding-bottom: 1.2rem;
+  background-color: rgba(255, 232, 204, 0.575);
+
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  max-width: 120rem;
+  height: 100vh;
+  border-radius: 2rem;
+}
+
+/* Empleados Section */
+.empleados {
+  padding-top: 2.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20rem;
+}
+.empleados-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 2.4rem;
+  border-radius: 9px;
+  align-items: center;
+  background-color: #ffe8cc;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: 300ms;
+}
+.empleados-box:hover {
+  transform: translateY(-2%);
+  cursor: pointer;
+}
+
+.empleados-img {
+  width: 15rem;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.nombre {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+}
+.descri {
+  font-size: 1.6rem;
+}
+.total {
+  font-size: 2.4rem;
+  color: #ff922b;
+}
+
+/* Asignar Section */
+
+.asignar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+  padding-bottom: 2.4rem;
+}
+.aumento {
+  color: #ff922b;
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.reset {
+  margin-left: 7rem;
+}
+
+/*Section de tareas*/
+.tareas {
+  display: flex;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+.tarea-box {
+  padding: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: #ffe8cc;
+}
+.fix {
+  margin-bottom: 0rem;
+}
+
+.tarea-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+}
+.tarea-valor {
+  font-size: 1.6rem;
+  color: #ff922b;
+}
+.size-6 {
+  width: 2.4rem;
+  height: 2.4rem;
+  stroke: #444;
+}
+.btn {
+  border-radius: 12px;
+  background-color: #ff922b;
+  text-decoration: none;
+  padding: 1.2rem 2.4rem;
+  border: none;
+  transition: all 200ms;
+}
+.btn:hover {
+  display: inline-block;
+  transform: scale(1.01);
+  background-color: #ff922bc7;
+  cursor: pointer;
+}
+.active {
+  box-shadow: 0 1rem 1rem rgba(255, 146, 43, 0.5);
+}
+.off {
+  background-color: #888;
+  pointer-events: none;
+  cursor: none;
+}
